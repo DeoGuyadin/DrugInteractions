@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Drug Interaction Checker</string>
+    <string name="singleDrugSelection">Enter Single Drug and Find all Negative Interactions</string>
+    <string name="multipleDrugSelections">Enter multiple Drugs and check for Negative Interactions among them</string>
+    <string name="enterSingleDrug">Enter Drug Name</string>
+    <string name="Confirmation">Search for Interactions</string>
+    <string name="switchToMultiple">Switch to Compare Multiple Drugs</string>
+    <string name="viewDescription">Description:</string>
+    <string name="viewSeverity">Severity:</string>
+    <string name="viewInputDrug">Input Drug:</string>
+    <string name="selectSource">Select Source:</string>
+    <string name="selectDrug">Select Interaction Drug:</string>
+    <string name="singleDrugActivityTitle">List of Drugs With Interactions</string>
+    <string name="searchForDrug">Search Interaction Drugs List</string>
+    <string name="searchDrugButton">Select</string>
+    <string name="mainActivityTitle">Drug Interaction Check</string>
+    <string-array name="sources">
+        <item>Drug Bank</item>
+        <item>ONCHigh (Severity Listed as High)</item>
+    </string-array>
+</resources>
