@@ -14,6 +14,20 @@
     <string name="searchForDrug">Search Interaction Drugs List</string>
     <string name="searchDrugButton">Select</string>
     <string name="mainActivityTitle">Drug Interaction Check</string>
+    <string name="scrollViewText">
+        Disclaimer:\nThis app is for general educational purposes and should not be used as a definitive source of
+        information on drug interactions. Use of this app as such is at your own risk. This app should
+        not be seen as a replacement for the advice of medical professionals.
+        \n\nDrugBank Disclaimer:\nDrugBank is intended for educational and scientific research purposes
+        only and you expressly acknowledge and agree that use of DrugBank is at your sole risk. The
+        accuracy of DrugBank information is not guaranteed and reliance on DrugBank shall be at your sole
+        risk. DrugBank is not intended as a substitute for professional medical advice, diagnosis or treatment.
+        \n\nCiting DrugBank:\nWishart DS, Knox C, Guo AC, Shrivastava S, Hassanali M, Stothard P, Chang Z,
+        Woolsey J. DrugBank: a comprehensive resource for in silico drug discovery and exploration. Nucleic
+        Acids Res. 2006 Jan 1;34(Database issue):D668-72. 16381955\n\nArticle Web Link for the Source of the
+        ONCHigh database:
+        \n<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3422823/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3422823/</a>
+    </string>
     <string-array name="sources">
         <item>Drug Bank</item>
         <item>ONCHigh (Severity Listed as High)</item>

@@ -3,8 +3,11 @@ package com.deoguyadin.druginteractions;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 
 /**
  * Created By: Deo Guyadin
@@ -52,6 +55,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        TextView disclaimerView = (TextView) findViewById(R.id.disclaimer);
+        disclaimerView.setMovementMethod(new ScrollingMovementMethod());
+        disclaimerView.setMovementMethod(LinkMovementMethod.getInstance());
     }
 
     public void goToSingleDrugActivity(View view) {
